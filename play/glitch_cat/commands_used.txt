@@ -1,0 +1,8 @@
+cat tmp.txt| cut -d + -f 1 > flag.txts
+python3 -c 'print(x62x64x61x36x38x66x37x35)' >> flag.txt 
+
+#just for testing:
+----python -c 'with open(tflag.txt, r) as file: print(.join(line.strip() for line in file))'
+
+run 'get_flag.py'
+cp my_flag.txt flag.txt

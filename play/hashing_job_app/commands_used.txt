@@ -1,0 +1,20 @@
+url = https://www.md5hashgenerator.com/
+
+nc saturn.picoctf.net 57689
+Please md5 hash the text between quotes, excluding the quotes: 'babies'
+Answer: 
+8374d0764f1466e601c624254222ad53
+8374d0764f1466e601c624254222ad53
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'gym teachers'
+Answer: 
+6a8404f911c6543cada93a75dd30a57d
+6a8404f911c6543cada93a75dd30a57d
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'Alfred Hitchcock'
+Answer: 
+e205d7c24a5780f9eeb2315049febe0b 
+e205d7c24a5780f9eeb2315049febe0b
+Correct.
+picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73}
+
