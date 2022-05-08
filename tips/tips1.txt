@@ -1,0 +1,80 @@
+### TIPS ###
+--------------
+
+# Clocks on computer are handled by servers (remote or local)
+
+# JS and HTML can be ran inside PHP
+
+# XSS tip:
+-----------
+ Suppose you are a hacker in a social network. When you create your account, instead of using your name, you input JavaScript code. When a friend of yours visit your profile, the WebSite will try to print your name, but your name is actually JavaScript code, so the browser might execute that JavaScript code. In that way, you could execute your own JavaScript on your friend’s browser!
+
+# encrypt & deencrypt w/zip: 
+----------------------------
+- zip --encrypt -r <file> <folder>
+- will make you enter user password to encrypt
+- unzip <file.zip> 
+- will make you enter user password to decrypt
+- the encrypted file will remain but the decrypted file will be inside a folder of the same name it was encrypted in
+
+# SQL Inject:
+--------------
+# try to inject an "or" expression that is always true
+
+
+# Binary Exploitation #
+-------------------------
+# A program has several sections...
+
+- Data
+	- static and global variables are placed
+	- the variables always exist when the program is being run, in contrast to local variables that disappear when a function finishes and returns the result.
+	
+- Heap
+	- memory allocated dynamically
+	- allocates memory when program is already running and executing the particular instruction for malloc
+	
+- Stack
+	- local variables, function parameters and return addresses are placed
+	- the return addr of a function can be different addresses depending on where the function is called in the program
+
+
+# x64 Intel ASM #
+-----------------
+
+REGISTERS:
+**********
+
+General:
+- RAX,EAX,AX (Accumulator register): It is usually used to place the return value of a function but can be used for other purposes
+
+- REX,EBX,BX (Base register): Used as the base pointer for memory access. We subtract or add an offset to the value of this register to access variables.
+
+- RCX,ECX,CX (Counter register): Called the. Usually used as a loop counter.
+
+- RDX,EDX,DX (Data register): Usually used to store temporary data in operations.
+
+Index/Pointer:
+- RSP,ESP,SP (Stack pointer register): Indicates the top of the stack. Whenever we create a local variable, this pointer changes to allow space to that variable. For example, if we create an variable that takes 4 bytes, the stack pointer moves 4 bytes to make room for that new variable.
+
+- RIP,EIP,IP (Instruction Pointer): Indicates the current instruction that the program is executing. If we make this register pointing to an address, the program will execute the code at that address.
+
+- RBP,EBP,BP (Base pointer register): Indicates the beginning of the stack frame of a function. The stack frame is a region of memory in which we place data, such as local variables, from a specific function. To access a local variable from a function, we take the address of the base pointer and subtract an offset.
+
+- RDI,EDI,DI (Destination index register): Generally used for copying chunks of memory, that can be strings or arrays.
+
+- RSI,ESI,SI (Source index register): Similar purpose to the previous register (Destination index register).
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+### COOKIES ###
+----------------
+
+# key/value pairs of data
+
+# can hold secret values so a website know's a user in fact them and not a spoofer

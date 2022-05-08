@@ -1,0 +1,28 @@
+# ASSEMBLY Tools #
+
+- You can obtain the assembly of a compiled program without having the original source code with the following command:
+objdump --disassemble example
+
+
+# String to Ascci
+
+- script for file:
+
+with open("nums.txt", "r") as file:
+    with open("vals.txt", "w") as vals:
+        data = file.readlines()
+        for line in data:
+            word = line.split()
+            for i in word:
+                i = ord(chr(int(i)))
+                vals.write(chr(i))
+                
+
+
+# Python: join strings that are listed in rows:
+- make into a file:
+
+with open("file.txt", "r") as lines:
+    with open("one_string.txt", "w") as file:
+        x = ''.join(line.strip() for line in lines)
+        file.write(x)
