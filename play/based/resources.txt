@@ -1,0 +1,8 @@
+#binary to ascii
+https://www.binaryhexconverter.com/binary-to-ascii-text-converter
+
+#octal to ascii
+https://onlineasciitools.com/convert-octal-to-ascii
+
+#hex to ascii
+https://www.rapidtables.com/convert/number/hex-to-ascii.html
