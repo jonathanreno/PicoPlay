@@ -1,0 +1,3 @@
+modified level5.py (see checker.py)
+ran level5.py (actually checker.py) and redirected to tmp.txt
+ran get_flag.py > flag.txt

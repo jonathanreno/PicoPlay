@@ -1,0 +1,1 @@
+Had to lookup the write -- https://github.com/Dvd848/CTFs/blob/master/2019_picoCTF/mus1c.md
